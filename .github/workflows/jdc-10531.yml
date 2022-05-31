@@ -9,15 +9,15 @@
 name: jdc-1_openwrt-21.02
 
 on:
-# release:
-#   types: published
-# push:
-#   branches:
-#     - openwrt-21.02
-#   paths:
-#     - 'Lean'
-#   schedule:
-#     - cron: 0 18 * * 1
+ release:
+   types: published
+ push:
+   branches:
+     - openwrt-21.02
+   paths:
+     - 'Lean'
+   schedule:
+     - cron: 0 18 * * 1
    watch:
      types: started
   
